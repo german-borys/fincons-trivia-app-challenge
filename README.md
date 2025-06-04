@@ -20,7 +20,7 @@ cd fincons-trivia-app-challenge
 
 2. Setup the database
 Run the following commands in your terminal:
-# macOS (Homebrew)
+The following instructions are to be used with Homebrew package manager
 brew tap mongodb/brew
 brew install mongodb-community
 brew services start mongodb-community
