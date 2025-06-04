@@ -17,6 +17,7 @@ Installation:
 Run the following commands in your terminal from a directory of your choice:
 
 `git clone git@github.com:german-borys/fincons-trivia-app-challenge.git`
+
 `cd fincons-trivia-app-challenge`
 
 3. Setup the database
@@ -25,22 +26,31 @@ The following instructions are to be used with Homebrew package manager
 
 
 `brew tap mongodb/brew`
+
 `brew install mongodb-community`
+
 `brew services start mongodb-community`
+
 
 4. Backend setup
 Run the following commands in your terminal:
 
 `cd server`
+
 `npm install`
+
 `npx ts-node src/seed_data.ts`
+
 `npx ts-node src/index.ts`
+
 
 6. Frontend configuration
 Run the following commands in your terminal:
 
 `cd ../client`
+
 `npm install`
+
 `npm start`
 
 navigate to http://localhost:3000 on your browser
