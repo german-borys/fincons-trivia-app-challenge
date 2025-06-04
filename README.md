@@ -55,4 +55,9 @@ Run the following commands in your terminal:
 
 navigate to http://localhost:3000 on your browser
 
+7. Run Tests
+Run the following commands in your terminal from the client directory:
+
+`npm run test`
+
 
